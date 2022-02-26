@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Recourses/CSS/normalize.css">
+    <link rel="stylesheet" href="./Recourses/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lobster&display=swap"
+        rel="stylesheet">
+    <title>Cooking Convertor Home</title>
+</head>
+
+<body>
+    <div class="site-container">
+        <header id="cooking-header">
+            <h1 class="mobile-header">Cooking Convertor</h1>
+            <h1 class="desktop-header">Cooking Convertor</h1>
+        </header>
+        <main>
+            <h2>Welcome to this easy to use cooking convertor!</h2>
+            <p>This tool will allow you too simply change a list of ingredients from 1 format to another. On the “Add”
+                tab you can enter the ingredient in its current measurement and covert it. After adding all the ingredients that
+                need conversion you will find a complete list on the “List” tab.</p>
+        </main>
+        <form name="messages" method="POST" data-netlify="true" id="contact-form">
+            <p id="form-intro">If you like using this tool please leave me a message, share it with your friends, or
+                like it on the
+                social platform of your choice!</p>
+            <div id="form-grid">
+                <p id="form-name" class="form-item">Name</p>
+                <p id="form-message" class="form-item">Message</p>
+                <button type="submit" id="form-submit" class="form-item"><img
+                        src="./Recourses/Images/Mail_white_lrg.png" title="Send a message button" width="30px"
+                        height="30px"></button>
+                <input type="name" name="name" title="your name" id="form-name-box" class="form-item">
+                <textarea rows="3" cols="25" name="text" title="your message" id="form-message-box"
+                    class="form-item"></textarea>
+            </div>
+        </form>
+        <aside role="link" class="mobile-aside">
+            <a href="https://www.facebook.com/" title="a link to the facebook page"><img
+                    src="./Recourses/Images/Facebook_white.png" height="30px" width="30px"></a>
+            <a href="https://www.instagram.com/" title="a link to the instagram page"><img
+                    src="./Recourses/Images/Instagram_white.png" height="30px" width="30px"></a>
+            <a href="https://www.twitter.com/" title="a link to the twitter page"><img
+                    src="./Recourses/Images/Twitter_white.png" height="30px" width="30px"></a>
+            <a href="https://www.linkedin.com/" title="a link to the linkedin page"><img
+                    src="./Recourses/Images/LinkedIN_white.png" height="30px" width="30px"></a>
+        </aside>
+        <aside role="link" class="desktop-aside">
+            <a href="https://www.facebook.com/" title="a link to the facebook page"><img
+                    src="./Recourses/Images/Facebook_white_lrg.png" height="60px" width="60px"></a>
+            <a href="https://www.instagram.com/" title="a link to the instagram page"><img
+                    src="./Recourses/Images/Instagram_white_lrg.png" height="60px" width="60px"></a>
+            <a href="https://www.twitter.com/" title="a link to the twitter page"><img
+                    src="./Recourses/Images/Twitter_white_lrg.png" height="60px" width="60px"></a>
+            <a href="https://www.linkedin.com/" title="a link to the linkedin page"><img
+                    src="./Recourses/Images/LinkedIN_white_lrg.png" height="60px" width="60px"></a>
+        </aside>
+        <nav>
+            <a href="./index.html" title="Home button"><button id="home-button">Home</button></a>
+            <a href="./ingredient.html" title="Add button"><button id="add-button">Add</button></a>
+            <a href="./list.html" title="List button"><button id="list-button">List</button></a>
+        </nav>
+    </div>
+</body>
+
+</html>

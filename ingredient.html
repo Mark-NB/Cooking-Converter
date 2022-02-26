@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Recourses/CSS/normalize.css">
+    <link rel="stylesheet" href="./Recourses/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lobster&display=swap"
+        rel="stylesheet">
+    <title>Cooking Convertor Add Ingredient</title>
+</head>
+
+<body>
+    <div class="site-container">
+        <header id="add-header">
+            <h1 class="mobile-header">Add Ingredients</h1>
+            <h1 class="desktop-header">Cooking Convertor</h1>
+        </header>
+        <main id="add-main">
+            <h2 id="desktop-2ndheader-add" class="desktop-2ndheader">Add Ingredients</h2>
+            <p id="ingredient-text-ingredient" class="ingredient-text">Ingredient</p>
+            <p id="ingredient-text-quantity" class="ingredient-text">Quantity</p>
+            <p id="ingredient-text-solidorliquid" class="ingredient-text">Solid or Liquid</p>
+            <p id="ingredient-text-current" class="ingredient-text">Current</p>
+            <p id="ingredient-text-desired" class="ingredient-text">Desired</p>
+            <input type="text" name="ingredient" title="ingredient name" id="ingredient-box-ingredient"
+                class="ingredient-item">
+            <input type="text" name="quantity" title="ingredient quantity" id="ingredient-box-quantity"
+                class="ingredient-item">
+            <select name="solidorliquid" title="ingredient solid or liquid" id="ingredient-box-solidorliquid"
+                class="ingredient-item">
+                <option value="solid">solid </option>
+                <option value="liquid">liquid</option>
+            </select>
+            <select name="current" title="ingredient's current measurement" id="ingredient-box-current"
+                class="ingredient-item">
+                <option value="ml">milliliter </option>
+                <option value="gram">gram</option>
+                <option value="ounce">ounce</option>
+                <option value="cup">cup</option>
+            </select>
+            <select name="desired" title="ingredient's desired measurement" id="ingredient-box-desired"
+                class="ingredient-item">
+                <option value="ml">milliliter </option>
+                <option value="gram">gram</option>
+                <option value="ounce">ounce</option>
+                <option value="cup">cup</option>
+            </select>
+            <button type="submit" id="ingredient-submit" class="ingredient-item">Convert !</button>
+        </main>
+        <aside role="link" class="mobile-aside">
+            <a href="https://www.facebook.com/" title="a link to the facebook page"><img
+                    src="./Recourses/Images/Facebook_white.png" height="30px" width="30px"></a>
+            <a href="https://www.instagram.com/" title="a link to the instagram page"><img
+                    src="./Recourses/Images/Instagram_white.png" height="30px" width="30px"></a>
+            <a href="https://www.twitter.com/" title="a link to the twitter page"><img
+                    src="./Recourses/Images/Twitter_white.png" height="30px" width="30px"></a>
+            <a href="https://www.linkedin.com/" title="a link to the linkedin page"><img
+                    src="./Recourses/Images/LinkedIN_white.png" height="30px" width="30px"></a>
+        </aside>
+        <aside role="link" class="desktop-aside">
+            <a href="https://www.facebook.com/" title="a link to the facebook page"><img
+                    src="./Recourses/Images/Facebook_white_lrg.png" height="60px" width="60px"></a>
+            <a href="https://www.instagram.com/" title="a link to the instagram page"><img
+                    src="./Recourses/Images/Instagram_white_lrg.png" height="60px" width="60px"></a>
+            <a href="https://www.twitter.com/" title="a link to the twitter page"><img
+                    src="./Recourses/Images/Twitter_white_lrg.png" height="60px" width="60px"></a>
+            <a href="https://www.linkedin.com/" title="a link to the linkedin page"><img
+                    src="./Recourses/Images/LinkedIN_white_lrg.png" height="60px" width="60px"></a>
+        </aside>
+        <nav>
+            <a href="./index.html" title="Home button"><button id="home-button">Home</button></a>
+            <a href="./ingredient.html" title="Add button"><button id="add-button">Add</button></a>
+            <a href="./list.html" title="List button"><button id="list-button">List</button></a>
+        </nav>
+    </div>
+</body>
+
+</html>
