@@ -70,7 +70,7 @@ nav {
     grid-area: 5 / 1 / -1 / -1;
     margin: 0 10px 10px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ; /*dit stukje zorgt voor problemen binnen ios :( */
+    grid-template-columns: repeat(3, 1fr) ; /*This bit doesnt seem to work on iOs browsers, the right button keeps falling outside te grid, cant figure out why :( */
     column-gap: 10px;
 }
 
